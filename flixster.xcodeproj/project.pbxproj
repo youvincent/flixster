@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		4755D0D225C0D01F0017211D /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4755D0D125C0D01F0017211D /* flixsterTests.swift */; };
 		4755D0DD25C0D01F0017211D /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4755D0DC25C0D01F0017211D /* flixsterUITests.swift */; };
 		477EAB4D25C4BB3100EACC53 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477EAB4C25C4BB3100EACC53 /* MovieCell.swift */; };
+		47BCB17625CE04CD00A9A223 /* MovieGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCB17525CE04CD00A9A223 /* MovieGridController.swift */; };
+		47BCB17B25CE096500A9A223 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCB17A25CE096500A9A223 /* MovieGridCell.swift */; };
 		74CD04027D41BE02BCBC36DB /* Pods_flixster_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ED7704787F2ED1134B0092 /* Pods_flixster_flixsterUITests.framework */; };
 		EA69A7D3A3F486828A463BA4 /* Pods_flixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D91652B72E0E3434F96104 /* Pods_flixster.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		4755D0DC25C0D01F0017211D /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		4755D0DE25C0D01F0017211D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		477EAB4C25C4BB3100EACC53 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		47BCB17525CE04CD00A9A223 /* MovieGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridController.swift; sourceTree = "<group>"; };
+		47BCB17A25CE096500A9A223 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		7BF3205E8A49C4CA8D2CA1C9 /* Pods-flixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.debug.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.debug.xcconfig"; sourceTree = "<group>"; };
 		7F38139F280CF2A7F00FDA96 /* Pods-flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.release.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.release.xcconfig"; sourceTree = "<group>"; };
 		9F0C2358E2A510BB76FAE4F7 /* Pods-flixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.release.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				4755D0C525C0D01E0017211D /* LaunchScreen.storyboard */,
 				4755D0C825C0D01E0017211D /* Info.plist */,
 				477EAB4C25C4BB3100EACC53 /* MovieCell.swift */,
+				47BCB17525CE04CD00A9A223 /* MovieGridController.swift */,
+				47BCB17A25CE096500A9A223 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -158,7 +164,6 @@
 				0FC91703D797EBCEC68EEE19 /* Pods-flixsterTests.debug.xcconfig */,
 				9F0C2358E2A510BB76FAE4F7 /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,8 +416,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4755D0BF25C0D01A0017211D /* ViewController.swift in Sources */,
+				47BCB17625CE04CD00A9A223 /* MovieGridController.swift in Sources */,
 				4755D0BB25C0D01A0017211D /* AppDelegate.swift in Sources */,
 				477EAB4D25C4BB3100EACC53 /* MovieCell.swift in Sources */,
+				47BCB17B25CE096500A9A223 /* MovieGridCell.swift in Sources */,
 				4755D0BD25C0D01A0017211D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
